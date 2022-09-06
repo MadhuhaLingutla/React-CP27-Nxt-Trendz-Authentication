@@ -1,0 +1,37 @@
+/* Write your CSS code here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-website-logo {
+  width: 250px;
+  height: 60px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.nav-item {
+  color: #475569;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.logout-button {
+  font-size: 15px;
+  background-color: #0967d2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
